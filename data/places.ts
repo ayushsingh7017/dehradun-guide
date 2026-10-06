@@ -1,0 +1,16 @@
+export type Place = { n: string; c: string; d: string; s: string; p: string; t: string; b: string };
+
+export const PLACES: Place[] = [
+    { n: "Robber's Cave", c: "Nature", d: "8 km", s: "gorge", p: "A narrow limestone gorge where a stream runs inside the rock. You walk in the water between tall walls, and it stays cool even on hot days.", t: "1 to 1.5 hours", b: "Go in dry months and avoid it after heavy rain." },
+    { n: "Sahastradhara", c: "Nature", d: "14 km", s: "falls", p: "Sulphur springs and dripping limestone caves beside a stream. There is a ropeway, a small temple and plenty of snack stalls.", t: "2 to 3 hours", b: "Weekdays are quieter." },
+    { n: "Lacchiwala Nature Park", c: "Nature", d: "20 km", s: "river", p: "A forest park on the Rishikesh road with a shallow river where families sit and splash. Good for a picnic.", t: "2 hours", b: "Check the water level in the monsoon." },
+    { n: "Asan Barrage", c: "Nature", d: "40 km", s: "birds", p: "A large wetland near Vikasnagar where the Asan meets the Yamuna. Many birds visit in winter, including ducks and waders.", t: "Half a day", b: "Winter mornings are best for birds." },
+    { n: "Rajaji National Park", c: "Nature", d: "25 to 40 km", s: "forest", p: "A forest reserve of sal trees and grassland, known for elephants and a wide variety of birds. Several gates open from the Dehradun side.", t: "Half a day", b: "Check the gate and safari timings first." },
+    { n: "Mindrolling Monastery", c: "Spiritual", d: "10 km", s: "stupa", p: "A large Tibetan Buddhist monastery in Clement Town, founded in 1965. The tall stupa has several floors with statues and murals.", t: "1 to 1.5 hours", b: "Dress modestly and keep quiet inside." },
+    { n: "Tapkeshwar Mahadev", c: "Spiritual", d: "6 km", s: "cave", p: "A cave temple to Shiva beside a stream. Water drips from the cave roof onto the Shivling, and the temple is busy on Shivratri.", t: "1 hour", b: "Mondays and festival days are crowded." },
+    { n: "Gurudwara Darbar Sahib", c: "Spiritual", d: "3 km", s: "gurudwara", p: "Built around the dera of Guru Ram Rai, the founder of the town. The Jhanda Mela fair is held here every year after Holi.", t: "45 minutes", b: "Cover your head and remove your shoes." },
+    { n: "Forest Research Institute", c: "Heritage", d: "7 km", s: "fri", p: "A huge white building with a long colonnade set in landscaped grounds. The museums cover timber, forest wildlife and the history of Indian forestry.", t: "2 hours", b: "Closed on some days, so check before going." },
+    { n: "Kalsi", c: "Heritage", d: "50 km", s: "edict", p: "A small town on the Yamuna with a rock edict of Emperor Ashoka from the 3rd century BCE, one of few such sites in northern India.", t: "Half a day", b: "Combine it with Asan Barrage in one trip." },
+    { n: "Malsi Deer Park", c: "City & family", d: "10 km", s: "deer", p: "A small deer and bird park on the way to Mussoorie. It makes an easy stop for children.", t: "1 hour", b: "Stop on the way up to Mussoorie." },
+    { n: "Paltan Bazaar", c: "City & family", d: "Centre", s: "clock", p: "The oldest market in the city, built around the six-sided Clock Tower. Shops sell clothes, spices, dry fruit, rice and sweets.", t: "2 hours", b: "Go in the evening and eat on the way." }
+  ];

@@ -1,0 +1,10 @@
+export type Vibe = { k: string; n: string; s: string[][] };
+
+export const VIBES: Vibe[] = [
+    { k: "Quiet and spiritual", n: "Temples and calm", s: [["8:00", "Tapkeshwar Mahadev", "The cave temple is calmest early in the morning."], ["10:00", "Mindrolling Monastery", "Walk the stupa and prayer halls."], ["13:00", "Lunch in Clement Town", "Momos and thukpa."], ["15:30", "Gurudwara Darbar Sahib", "Sit quietly, and take langar if you wish."]] },
+    { k: "Caves and water", n: "Cool off", s: [["9:00", "Robber's Cave", "Wade the gorge while it is still cool."], ["11:30", "Sahastradhara", "Sulphur springs and the cave streams."], ["14:00", "Lunch on the road", "Garhwali thali or a dhaba meal."], ["15:30", "Lacchiwala", "Sit in the shallow river for the afternoon."]] },
+    { k: "History and buildings", n: "Old Dehradun", s: [["10:00", "Forest Research Institute", "Colonnade, grounds and museums."], ["13:00", "Lunch near Rajpur Road", "Try a Garhwali plate."], ["15:00", "Gurudwara Darbar Sahib", "The dera that gave the city its name."], ["17:00", "Paltan Bazaar", "The old market around the Clock Tower."]] },
+    { k: "Food and markets", n: "Eat your way through", s: [["10:30", "Paltan Bazaar", "Tikki, golgappe and kachori."], ["13:00", "Garhwali thali", "Kafuli, chainsoo and mandua roti."], ["16:00", "Clement Town", "Momos and Tibetan tea."], ["19:00", "Jalebi at the Clock Tower", "Finish with something sweet."]] },
+    { k: "Family day out", n: "Easy with kids", s: [["9:30", "Malsi Deer Park", "Short walk and animals to spot."], ["11:30", "Forest Research Institute", "Lawns and museums."], ["14:00", "Lunch", "A relaxed meal near Rajpur Road."], ["16:00", "Lacchiwala", "Splash in the shallow river."]] },
+    { k: "Wildlife and birds", n: "Quiet nature", s: [["6:30", "Asan Barrage", "Birds are most active at sunrise, especially in winter."], ["10:00", "Kalsi", "See the Ashokan rock edict on the Yamuna."], ["13:00", "Lunch in Vikasnagar", "Simple local food."], ["15:00", "Rajaji forest edge", "Check gate timings before you go."]] }
+  ];
